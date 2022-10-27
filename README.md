@@ -25,3 +25,13 @@ Article and Body are written to corresponding files:
 -rw-rw-r-- 1 sander sander 545469 Oct 27 20:40 'myarticle-news.eweka.nl-<63561079zqpJFZVHYdeLFxZbCHHVIfi@aMBzkj>.bin'
 -rw-rw-r-- 1 sander sander 545091 Oct 27 20:40 'mybody-news.eweka.nl-<63561079zqpJFZVHYdeLFxZbCHHVIfi@aMBzkj>.bin'
 ```
+
+# Bad things
+
+No exception handling, so if something is wrong, you get a raw, self-explaining traceback, like
+
+```
+socket.gaierror: [Errno -2] Name or service not known
+nntplib.NNTPPermanentError: 502 Authentication Failed
+nntplib.NNTPTemporaryError: 430 No Such Article
+```
