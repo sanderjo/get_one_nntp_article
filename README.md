@@ -12,6 +12,11 @@ And, yes, it uses NNTPS (not NNTP).
 python3 get_one_nntp_article.py news.eweka.nl user123 MyPass '63561079zqpJFZVHYdeLFxZbCHHVIfi@aMBzkj'
 ```
 
+Notes about the article ID parameter:
+* can be with and without < and >
+* must be within single or double quotes because of funny chars like the @
+
+
 # Result
 
 Article and Body are written to corresponding files:
