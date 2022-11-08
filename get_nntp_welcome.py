@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# Get one article from a NNTP / NNTPS server
+# Get Welcom message from a NNTP / NNTPS server
 
 import nntplib
 import sys
